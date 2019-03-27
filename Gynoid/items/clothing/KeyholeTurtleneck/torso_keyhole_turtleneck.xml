@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAtributes>
+		<value>600</value> 
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[keyhole turtleneck]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[keyhole turtlenecks]]></namePlural> 
+		<description><![CDATA[A feminine turtleneck, with a section at the front cut out to reveal the wearer's cleavage.]]></description> 
+		<physicalResistance>1</physicalResistance> 
+		<femininity>FEMININE</femininity> 
+		<slot>TORSO_UNDER</slot> 
+		<rarity>COMMON</rarity> 
+		<clothingSet/> 
+		<imageName>torso_keyhole_turtleneck.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit/>
+		<effects/> 
+		<blockedPartsList> 
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType> 
+				<clothingAccessRequired> 
+					<clothingAccess>ARMS_UP_TO_SHOULDER</clothingAccess>
+					<clothingAccess>HEAD</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts/>
+				<clothingAccessBlocked/>
+				<concealedSlots/>
+			</blockedParts>
+			
+			<blockedParts>
+				<displacementType>PULLS_DOWN</displacementType>
+				<clothingAccessRequired/>
+				<blockedBodyParts>
+					<bodyPart>NIPPLES</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+					<clothingAccess>CHEST</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots/>
+			</blockedParts>
+			
+			<blockedParts>
+				<displacementType>PULLS_UP</displacementType>
+				<clothingAccessRequired/>
+				<blockedBodyParts>
+					<bodyPart>NIPPLES</bodyPart>
+					<bodyPart>STOMACH</bodyPart>
+					<bodyPart>BACK</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+					<clothingAccess>CHEST</clothingAccess>
+					<clothingAccess>WAIST</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots>
+					<slot>CHEST</slot>
+					<slot>NIPPLE</slot>
+					<slot>STOMACH</slot>
+					<slot>PIERCING_NIPPLE</slot>
+					<slot>PIERCING_STOMACH</slot>
+				</concealedSlots>
+			</blockedParts>
+		</blockedPartsList>		
+		<incompatibleSlots/> 
+		<primaryColours values="ALL"/> 
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours values="NONE"/>
+		<secondaryColoursDye values="NONE"/>
+		<tertiaryColours values="NONE"/>
+		<tertiaryColoursDye values="NONE"/>
+		<itemTags> 
+			<tag>SOLD_BY_NYAN</tag>
+			<tag>DOMINION_ALLEYWAY_SPAWN</tag>
+		</itemTags>
+	</coreAtributes>
+</clothing>

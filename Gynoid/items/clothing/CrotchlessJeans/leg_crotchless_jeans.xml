@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clothing>
+	<coreAttributes>
+		<value>400</value> 
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[crotchless jeans]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[crotchless jeans]]></namePlural> 
+		<description><![CDATA[A unisex pair of jeans, which have been designed with no crotch area. The buttocks are still covered, though.]]></description> 
+		<physicalResistance>1</physicalResistance> 
+		<femininity>ANDROGYNOUS</femininity> 
+		<slot>LEG</slot> 
+		<rarity>COMMON</rarity> 
+		<clothingSet/>
+		<imageName>leg_crotchless_jeans.svg</imageName> 
+		<imageEquippedName/> 
+		<enchantmentLimit/>
+		<effects/>
+		<blockedPartsList>
+			<blockedParts>
+				<displacementType>REMOVE_OR_EQUIP</displacementType> 
+				<clothingAccessRequired> 
+					<clothingAccess>FEET</clothingAccess>
+					<clothingAccess>LEGS_UP_TO_GROIN</clothingAccess>
+				</clothingAccessRequired>
+				<blockedBodyParts/>
+				<clothingAccessBlocked>
+					<clothingAccess>LEGS_UP_TO_GROIN</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots values="CONCEALED_ANKLES_FROM_TROUSERS"/>
+			</blockedParts>
+			<blockedParts>
+				<displacementType>PULLS_DOWN</displacementType> 
+				<clothingAccessRequired/>
+				<blockedBodyParts>
+					<bodyPart>ANUS</bodyPart>
+				</blockedBodyParts>
+				<clothingAccessBlocked>
+					<clothingAccess>GROIN</clothingAccess>
+				</clothingAccessBlocked>
+				<concealedSlots/>
+			</blockedParts>
+		</blockedPartsList>
+		<incompatibleSlots/> 
+		<primaryColours>
+			<colour>CLOTHING_BLUE</colour>
+			<colour>CLOTHING_BLUE_LIGHT</colour>
+			<colour>CLOTHING_PINK_LIGHT</colour>
+			<colour>CLOTHING_GREY</colour>
+		</primaryColours>
+		<primaryColoursDye values="ALL"/>
+		<secondaryColours values="NONE"/>
+		<secondaryColoursDye values="NONE"/>
+		<tertiaryColours values="NONE"/>
+		<tertiaryColoursDye values="NONE"/>
+		<itemTags>
+			<tag>SOLD_BY_NYAN</tag>
+		</itemTags>
+	</coreAttributes>
+  <replacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(step)] into the jeans, before pulling them up and fastening the button above [npc.her] groin.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(get)] [npc2.name] to step into the jeans, before pulling them up and fastening the button above [npc2.her] groin.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(force)] [npc2.name] to step into the jeans, before yanking them up and fastening the button above [npc2.her] groin.]]>
+    </otherRough>
+  </replacementText>
+
+  <displacementText type="REMOVE_OR_EQUIP">
+    <self>
+      <![CDATA[[npc.Name] [npc.verb(unfasten)] the button on [npc.her] jeans, before slipping them off.]]>
+    </self>
+    <other>
+      <![CDATA[[npc.Name] [npc.verb(unfasten)] the button on [npc2.namePos] jeans, before slipping them off.]]>
+    </other>
+    <otherRough>
+      <![CDATA[[npc.Name] [npc.verb(unfasten)] the button on [npc2.namePos] jeans, before yanking them off.]]>
+    </otherRough>
+  </displacementText>
+</clothing>
